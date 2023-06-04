@@ -1,1 +1,1 @@
-# landing-page
+A practice landing page for The Odin Project
