@@ -1,10 +1,19 @@
 body {
     min-height:100vh;
     font-family: 'Roboto', sans-serif;
+    background-color: #f9faf8;
 }
 
 h1 {
     color: #f9faf8;
+}
+
+h2 {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 16px;
 }
 
 p {
@@ -59,4 +68,21 @@ p {
     width: 400px;
     height: auto;
     margin: 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:  0px 32px;
+    margin: 0;
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+}
+
+.card p {
+    color:#1f2937;
 }
