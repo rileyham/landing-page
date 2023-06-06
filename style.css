@@ -3,9 +3,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    color: #f9faf8;
+}
+
+p {
+    color: #e5e7eb;
+}
+
 .header {
     display: flex;
-    background-color: hsl(215, 28%, 17%);
+    background-color: #1f2937;
     margin: 0;
     padding: 0;
     justify-content: space-between;
@@ -28,4 +36,27 @@ body {
 .header-links a {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 32px;
+    align-items: center;
+}
+
+.hero-content {
+    flex-grow: 0;
+}
+
+.hero-content button {
+    background-color: #3882f6;
+    color: #e5e7eb
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
+    margin: 24px;
 }
