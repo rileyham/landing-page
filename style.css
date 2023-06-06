@@ -86,3 +86,27 @@ p {
 .card p {
     color:#1f2937;
 }
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    color:#1f2937;
+    text-align: right;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 10px;
+}
