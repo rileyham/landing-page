@@ -110,3 +110,39 @@ p {
     font-size: 24px;
     padding-top: 10px;
 }
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 12px;
+    width: 600px;
+    height: 100px;
+    padding: 12px 48px;
+    justify-self: center;
+    margin: 48px 0px;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+
+.call-text {
+    color: #f9faf8;
+}
+
+.call button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 6px;
+    color:#f9faf8;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 24px;
+    
+}
