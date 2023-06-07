@@ -28,18 +28,19 @@ p {
     padding: 0;
     justify-content: space-between;
     padding: 32px;
+    padding-bottom: 0px;
     align-items: center;
 }
 
 .header-logo {
     color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 54px;
+    font-weight: 900;
 }
 
 .header-links {
     display: flex;
-    gap: 15px;
+    gap: 24px;
     list-style-type: none;
 }
 
@@ -62,13 +63,17 @@ p {
 
 .hero-content button {
     background-color: #3882f6;
-    color: #e5e7eb
+    border-radius: 6px;
+    color:#f9faf8;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 24px;
 }
 
 .hero-image {
-    width: 400px;
+    width: 500px;
     height: auto;
-    margin: 24px;
+    margin: 0 24px;
 }
 
 .container {
@@ -86,6 +91,7 @@ p {
 
 .card p {
     color:#1f2937;
+    font-weight: 500;
 }
 
 
