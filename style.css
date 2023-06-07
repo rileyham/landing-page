@@ -2,6 +2,7 @@ body {
     min-height:100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #f9faf8;
+    margin:0;
 }
 
 h1 {
@@ -145,4 +146,13 @@ p {
     font-size: 16px;
     padding: 6px 24px;
     
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 24px;
+    font-weight: 100;
+
 }
